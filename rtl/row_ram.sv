@@ -1,4 +1,4 @@
-module line_ram #(
+module row_ram #(
     parameter int DEPTH     = 640,  
     parameter int ADDR_BITS = 10     
 ) (
